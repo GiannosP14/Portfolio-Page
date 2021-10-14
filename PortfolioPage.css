@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  width: 50%;
+  float: left;
+}
+.main {
+  width: 50%;
+  float: left;
+}
+
+
+#allpage{
+  background-color: rgb(136, 34, 34);
+}
+
+#navbar{
+  background-color: rgb(253, 240, 218);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#logo{
+  float: left;
+  position: relative;
+  height: auto; 
+  padding-top: 25px;
+}
+
+.navlink{
+  padding: 30;
+  margin: 0;
+  color: black;
+  display: block;
+  
+}
+
+.navlink:hover{
+  background-color: rgb(136, 34, 34);
+height: 60;
+opacity: 0.5;
+}
+
+#About{
+  text-align: center;
+}
+
+#color1{
+  color: rgb(165, 154, 154);
+}
+
+#MyProjects{
+  text-align: center;
+}
+
+
+
+.column{
+  float:left;
+  width: 50%;
+  padding: 20px;
+}
+
+.columnn{
+  float:left;
+  width: 33.3%;
+  padding: 50px;
+}
+
+.columnnn{
+  float:left;
+  width: 33.3%;
+  padding-left: 120px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+#mikis{
+  
+  border: 10px solid rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.7;
+  
+}
+
+
+#mikis:hover {
+  border-color: rgb(253, 240, 218);
+  transition: all .5s ease-in;
+  opacity: 1;
+}
+
+
+#survey{
+ border: 10px solid rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.7;
+  }
+
+
+#survey:hover {
+  border-color: moccasin;
+  transition: all .5s ease-in;
+  opacity: 1;
+}
+
+#techdoc{
+  border: 10px solid rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.7;
+ }
+
+
+#techdoc:hover {
+  border-color: moccasin;
+  transition: all .5s ease-in;
+  opacity: 1;
+}
+
+#product{
+ border: 10px solid rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+
+#product:hover {
+  border-color: moccasin;
+  transition: all .5s ease-in;
+  opacity: 1;
+}
+
+#ProgrammingSkills{
+  text-align: center;
+}
+
+#js{
+  opacity: 0.2;
+}
+
+#python{
+  opacity: 0.2;
+}
+
+#java{
+  opacity: 0.2;
+}
+
+#word{
+  opacity: 0.2;
+}
+
+#footer{
+  height: 10px;
+}
+#ContactMe{
+  background-color: rgb(252, 252, 253);
+  text-align: center;
+}
+
+#mail{
+  width: 50px;
+}
+
+#github{
+  width: 50px;
+}
+
+#linkdin{
+  width: 80px;
+
+}
